@@ -1,0 +1,170 @@
+Množiny. Teorie matic. Soustavy lineárních rovnic.
+	Gaussova eliminace
+	Diskriminant
+	Invertibilni matice, singularni matice
+	Linearni zobrazeni, eigenvalues
+
+Základy matematické analýzy. Metody aproximace funkcí. Metoda nejmenších čtverců. Aplikace pro hledání modelů z naměřených reálných dat.
+	Lagrangeho multiplikatory
+	Newtonova metoda
+	Linearni regrese
+	Least-squares; MSE
+	Lasso, elastic net, L1/L2-priors
+
+Statická optimalizace. Lineární programování. Gradientní metody. Problém uváznutí v lokálním extrému.
+	LP basics
+	ILP
+	Gradient descent
+	Powell
+	Levenberg-Marquart
+	Boltzmann
+
+Základní pojmy statistiky, zásady provádění pokusů a ověřování hypotéz, metoda maximální věrohodnosti.
+	Probability space
+	Bayes rule
+	Bernoulli, binomial distribution
+	Normal distribution, central limit theorem, quantiles
+	Poisson distribution, chi² distribution
+	Null hypothesis
+	ML, MAP
+
+Grafy. Kombinatorické algoritmy a jejich složitost. Asymptotické míry výpočetní složitosti, třídy P a NP.
+	Dijkstra, Bellman-Ford, A*, MST
+	Maximum flow, maximum pairing
+	TSP, 3SAT, knapsack
+	Formalne P, NP, PSPACE, EXPTIME
+
+Lineární integrální transformace, zejména Fourierova. FFT. Nelineární filtrace.
+	Impulse response, frequency response
+	FFT, discrete FFT, algoritmus
+	Window funkce atd.
+	(DCT, wavelets)
+	Phase-locked loop, particle filters, Kalman filters
+
+Teorie informace, míry informace, entropie, střední vzájemná informace, princip maxima entropie.
+	Entropie, diferencialni entropie
+	Joint entropy, conditional entropy, and mutual information (set analogy, Bayes analogy)
+	Kullback-leibler divergence (gain)
+	Coding theory, noisy channel coding (Shannon theorem)
+	https://en.wikipedia.org/wiki/Principle_of_maximum_entropy
+
+Matematický model zavedený na objektu. Problém identifikace struktury a parametrů modelu.
+	? ? ? (pry nekde v Maricich)
+
+Výroková logika. Predikátová logika prvního řádu. Formální systém, teorie a jejich korektnost a úplnost. Metody dokazování vět. Rezoluční princip. Meze dokazatelnosti.
+	Definice: term, literal, vyrok, řád, teorie, model, korektnost/uplnost
+	Odvozovaci schemata
+	Dokazovani:
+		Forward/backward chaining
+		Rezolucni metoda (https://en.wikipedia.org/wiki/Resolution_(logic))
+		Unifikace
+		(grounding, lifting, rete)
+	Godelovy vety
+
+Řešení úloh. Stavový prostor úlohy a metody jeho prohledávání.
+	BFS, DFS, branch&bound, alpha-beta
+	Prohledavani systemu verzi
+	???
+
+Formulace úlohy statistického rozhodování, rozpoznávání. Bayesovské rozhodování jako minimalizace střední ztráty. Nebayesovské úlohy.
+	Supervised, unsupervised, semi-supervised
+	Slajdy z Hlavace
+	Mixture of gaussians https://en.wikipedia.org/wiki/Jensen%27s_inequality
+
+Definice problému učení. Indukce, dedukce a abdukce. Učení (trénování) a odhady parametrů. Odlišnosti učení s učitelem a bez učitele. Základní metody. Trénovací a testovací množina a jejich rozsah.
+	Slajdy z Hlavace
+	??? odhady parametru?
+	Indukce, dedukce, abdukce
+	Precision, recall, ROC
+	Cross-validation
+
+Znalosti, jejich reprezentace a použití v úlohách umělé inteligence.
+	???
+	Vyrokova logika, ramce
+	Block world, SHRDLU
+	Planovaci operatory, STRIPS
+
+Znalostní systémy a jejich praktické aplikace.
+	??? (ontologie, data a inferencni pravidla?)
+
+Základní cíle umělé inteligence a přístupy k jejich dosažení: manipulace se symboly, konekcionismus, distribuované systémy.
+	???
+
+
+
+Programovací jazyky pro UI. Deklarativní a procedurální programování, rozdíly a možné propojení včetně implementace.
+	Prolog, LISP
+	???
+
+Problémy zpracování přirozeného jazyka. Problematika porozumění přirozenému jazyku, používané principy, metody a nástroje. Využití v současných aplikacích UI.
+	Chomskeho hierarchie
+	Parsery !!!
+	HMM, CRF
+	Embeddings :)
+	Rekurentni NN
+	Korpusy: Wordnet, CoNLL, PDT, ...
+
+Fuzzy uvažování. Modely složitých systémů a jejich návrh. Kvalitativní simulace.
+	Fuzzy logika
+	Babuskovy slajdy
+	Naivni fyzika (Marik I)
+
+Návrh a tvorba znalostních systémů. Rozhodovaní za neurčitosti a jeho použití v expertních systémech. Základy teorie her.
+	Bayesovske site, rozhodovaci grafy
+	MDP
+	Rozhodovaci stromy, ID3
+	Gradient-boosted rozhodovaci lesy
+	Herni matice, veznovo dilema
+	Nashovo ekvilibrium, Pareto optimalita
+
+Dobývání znalostí z dat (KDD) a techniky umělé inteligence.
+	PCA/SVD
+	Clustering
+	Topic models
+	NELL
+
+Učení v prostředí s rozsáhlou apriorní znalostí. Induktivní logické programování a relační učení.
+	Inductive Logic Programming
+	https://en.wikipedia.org/wiki/Statistical_relational_learning
+
+Posilované učení. Neuronové sítě a jejich aplikace.
+	RL:
+		Uloha RL, Bellmanova rovnice, decision policy a discount factor
+		ADP, TD-learning
+		MAB problem, Q-learning, SARSA
+	NN:
+		Perceptron (s dukazem)
+		Backprop
+		Boltzmann network, RBF net
+		DCNN
+
+Evoluční výpočetní techniky a jejich použití.
+	Veta o schematech
+	Selekce
+	Reprezentace a krizeni (floaty, grafy pro TSP, ...)
+	PSO, koevoluce, neuroevoluce
+
+Multiagentní systémy. Modelování sociálních agentů. Chování society agentů.
+	Omezena racionalita (neuplne informace, framing efekt, emoce)
+	Kripkeho semantika
+	Komunikace - KQML, FIPA; Byzantsti generalove
+	???
+
+Plánování a rozvrhování. Znalosti v dynamickém prostředí a problém rámce.
+	CSP - promenne, domeny, podminky (intenzionalni, extenzionalni), generuj&testuj, specialni podminky (alldifferent)
+	Planovaci domena, problem, operatory
+	Planovani v prostor planu, stavu; STRIPS
+	??? dynamicke prostredi
+	Ramec - balast
+
+Robotika. Tvorba modelu světa a slučování znalostí.
+	Hierarchicke planovani, quadtree dlazdice
+	Monte carlo mapping
+	???
+
+Umělý život.
+	EA bez stropu fitness, asynchronne
+	Umely svet
+	Conway, Core Wars, Tierra
+
+# vim: foldmethod=indent
