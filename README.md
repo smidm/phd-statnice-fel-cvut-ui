@@ -17,16 +17,16 @@
 
 ## Metody aproximace funkcí.
 
-    - https://en.wikipedia.org/wiki/Taylor%27s_theorem
-    - https://en.wikipedia.org/wiki/Fourier_series
-    - https://en.wikipedia.org/wiki/Interpolation
-    - https://en.wikipedia.org/wiki/Spline_(mathematics)      
-    - Navara M., Aproximace funkcí a numerická derivace, <http://cmp.felk.cvut.cz/~navara/nm/aprox_print.pdf>
+- https://en.wikipedia.org/wiki/Taylor%27s_theorem
+- https://en.wikipedia.org/wiki/Fourier_series
+- https://en.wikipedia.org/wiki/Interpolation
+- https://en.wikipedia.org/wiki/Spline_(mathematics)      
+- Navara M., Aproximace funkcí a numerická derivace, <http://cmp.felk.cvut.cz/~navara/nm/aprox_print.pdf>
     
 ## Metoda nejmenších čtverců.
 
-    - https://en.wikipedia.org/wiki/Least_squares
-    - Navara M., Aproximace funkcí a numerická derivace, <http://cmp.felk.cvut.cz/~navara/nm/aprox_print.pdf>
+- https://en.wikipedia.org/wiki/Least_squares
+- Navara M., Aproximace funkcí a numerická derivace, <http://cmp.felk.cvut.cz/~navara/nm/aprox_print.pdf>
     
 - Least-squares; MSE
 - Lasso, elastic net, L1/L2-priors
