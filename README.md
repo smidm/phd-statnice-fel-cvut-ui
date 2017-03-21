@@ -148,4 +148,6 @@ Werner T., Optimalizace, <https://cw.fel.cvut.cz/wiki/_media/courses/a4b33opt/op
 
 # Tvar z X. Stereovidění. Fotometrické stereo. Tvar ze stínování.
     
-[tématické okruhy, zdroj]:(http://www.fel.cvut.cz/cz/education/phd/tem_okruhy/TO13133.html)
+tématické okruhy: http://www.fel.cvut.cz/cz/education/phd/tem_okruhy/TO13133.html
+
+založeno na: https://gist.github.com/pasky/4d2a4467cc5435dc1cf4
