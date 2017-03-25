@@ -102,14 +102,23 @@ Werner T., Optimalizace, <https://cw.fel.cvut.cz/wiki/_media/courses/a4b33opt/op
 - viz Dasgupta et al.
 - http://kam.mff.cuni.cz/~kuba/ka/cas_sloz.pdf
 
-
 # Lineární integrální transformace, zejména Fourierova. FFT. Nelineární filtrace.
 
-	Impulse response, frequency response
-	FFT, discrete FFT, algoritmus
-	Window funkce atd.
-	(DCT, wavelets)
-	Phase-locked loop, particle filters, Kalman filters
+- fourierova transformace https://en.wikipedia.org/wiki/Fourier_transform
+- FFT https://  en.wikipedia.org/wiki/Fast_Fourier_transform, https://en.wikipedia.org/wiki/Cooley%E2%80%93Tukey_FFT_algorithm
+- jen přehled: laplaceova, z transformace
+- konvoluce https://en.wikipedia.org/wiki/Convolution
+- Impulse response, frequency response https://en.wikipedia.org/wiki/Frequency_response
+- Window funkce atd. (DCT, wavelets)
+
+- Kalmanův filter
+	
+## Nelineární filtrace	
+
+- https://en.wikipedia.org/wiki/Nonlinear_filter
+- Phase-locked loop https://en.wikipedia.org/wiki/Phase-locked_loop
+- particle filters
+- median filter
 
 # Teorie informace, míry informace, entropie, střední vzájemná informace, princip maxima entropie.
 
@@ -169,7 +178,7 @@ Werner T., Optimalizace, <https://cw.fel.cvut.cz/wiki/_media/courses/a4b33opt/op
 
 ---
 
-# Teorie statistického učení podle Vapnika-a Červoněnkise.
+# Teorie statistického učení podle Vapnika a Červoněnkise.
 
 # Statistické učení bez učitele. EM algoritmus.
 
