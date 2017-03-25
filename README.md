@@ -1,5 +1,9 @@
 # Množiny. Teorie matic. Soustavy lineárních rovnic.
 
+## Teorie množin
+
+- Demlová M., Diskrétní matematika a grafy, http://math.feld.cvut.cz/demlova/teaching/dmg/dohromady1516.pdf
+
 	Gaussova eliminace
 	determinant
 	Invertibilni matice, singularni matice
@@ -47,6 +51,12 @@ Werner T., Optimalizace, <https://cw.fel.cvut.cz/wiki/_media/courses/a4b33opt/op
 
 # Základní pojmy statistiky, zásady provádění pokusů a ověřování hypotéz, metoda maximální věrohodnosti.
 
+- Navara, Mirko, Pravděpodobnost a matematická statistika.
+- Lagrangeova (klasická) definice https://en.wikipedia.org/wiki/Classical_definition_of_probability
+- Kolmogorova definice https://en.wikipedia.org/wiki/Probability_axioms
+- definice pravděpodobnosti http://www.colorado.edu/economics/morey/6818/3defprob.pdf
+
+
 	Probability space
 	Bayes rule
 	Bernoulli, binomial distribution
@@ -57,10 +67,41 @@ Werner T., Optimalizace, <https://cw.fel.cvut.cz/wiki/_media/courses/a4b33opt/op
 
 # Grafy. Kombinatorické algoritmy a jejich složitost. Asymptotické míry výpočetní složitosti, třídy P a NP.
 
-	Dijkstra, Bellman-Ford, A*, MST
-	Maximum flow, maximum pairing
-	TSP, 3SAT, knapsack
-	Formalne P, NP, PSPACE, EXPTIME
+- Dasgupta, Sanjoy, Christos H. Papadimitriou, and Umesh Vazirani. Algorithms. McGraw-Hill, Inc., 2006. https://people.eecs.berkeley.edu/~vazirani/algorithms/toc.pdf
+- Černý, Jakub, Základní grafové algoritmy. http://kam.mff.cuni.cz/~kuba/ka/
+- Kolář, Josef, Teoretická informatika. http://www.exfort.org/2005l/4/x36tin/pdf/ti.pdf
+
+## Základní pojmy
+
+## Reprezentace
+
+- matice souslednosti
+- matice vzdáleností
+- laplaceouva matice
+- seznam sousedů
+- seznam hran
+- vis Kolář et al.
+
+## Grafové algoritmy
+
+- Kombinatorická optimalizace, https://cw.fel.cvut.cz/wiki/courses/a4m35ko/start
+
+- Dijkstra
+- Bellman-Ford
+- minimální kostra (Kruskalův algoritmus, MST)
+- A*
+- Maximum flow, maximum pairing
+- TSP, 3SAT, knapsack
+- barvení grafu
+
+## Třídění?
+
+## Složitost
+
+- Formalne P, NP, PSPACE, EXPTIME
+- viz Dasgupta et al.
+- http://kam.mff.cuni.cz/~kuba/ka/cas_sloz.pdf
+
 
 # Lineární integrální transformace, zejména Fourierova. FFT. Nelineární filtrace.
 
