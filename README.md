@@ -105,7 +105,7 @@ Werner T., Optimalizace, <https://cw.fel.cvut.cz/wiki/_media/courses/a4b33opt/op
 # Lineární integrální transformace, zejména Fourierova. FFT. Nelineární filtrace.
 
 - fourierova transformace https://en.wikipedia.org/wiki/Fourier_transform
-- FFT https://  en.wikipedia.org/wiki/Fast_Fourier_transform, https://en.wikipedia.org/wiki/Cooley%E2%80%93Tukey_FFT_algorithm
+- FFT https://en.wikipedia.org/wiki/Fast_Fourier_transform, https://en.wikipedia.org/wiki/Cooley%E2%80%93Tukey_FFT_algorithm
 - jen přehled: laplaceova, z transformace
 - konvoluce https://en.wikipedia.org/wiki/Convolution
 - Impulse response, frequency response https://en.wikipedia.org/wiki/Frequency_response
@@ -122,15 +122,29 @@ Werner T., Optimalizace, <https://cw.fel.cvut.cz/wiki/_media/courses/a4b33opt/op
 
 # Teorie informace, míry informace, entropie, střední vzájemná informace, princip maxima entropie.
 
-	Entropie, diferencialni entropie
-	Joint entropy, conditional entropy, and mutual information (set analogy, Bayes analogy)
-	Kullback-leibler divergence (gain)
-	Coding theory, noisy channel coding (Shannon theorem)
-	https://en.wikipedia.org/wiki/Principle_of_maximum_entropy
+## Sources
+
+- Gray, Robert M., Entropy and Information Theory.
+- https://en.wikipedia.org/wiki/Information_theory
+- https://en.wikipedia.org/wiki/Coding_theory
+
+
+- Entropie
+- Diferencialni entropie
+- Joint entropy
+- conditional entropy
+- mutual information (set analogy, Bayes analogy)
+- Kullback-leibler divergence (gain) https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence
+- https://en.wikipedia.org/wiki/Principle_of_maximum_entropy
+- Coding theory, noisy channel coding (Shannon theorem)
 
 # Matematický model zavedený na objektu. Problém identifikace struktury a parametrů modelu.
 
 	? ? ? (pry nekde v Maricich)
+- dynamický model, statistický model, differenciální rovnice, modely teorie her
+- experimenty na objektu: přechodová, impulsní, frekvenční charakteristika
+- white box, grey box, black box 
+- identifikace: Horáček, Petr. Systémy a modely.
 
 # Výroková logika. Predikátová logika prvního řádu. Formální systém, teorie a jejich korektnost a úplnost. Metody dokazování vět. Rezoluční princip. Meze dokazatelnosti.
 
@@ -145,9 +159,17 @@ Werner T., Optimalizace, <https://cw.fel.cvut.cz/wiki/_media/courses/a4b33opt/op
 
 # Řešení úloh. Stavový prostor úlohy a metody jeho prohledávání.
 
-	BFS, DFS, branch&bound, alpha-beta
-	Prohledavani systemu verzi
-	???
+- literatura:
+    - Mařík V. et al., Umělá inteligence 1
+    - https://en.wikipedia.org/wiki/Combinatorial_search
+    
+- stavový prostor
+- prohledávání do hloubky
+- prohledávání do šířky
+- A* https://en.wikipedia.org/wiki/A*_search_algorithm
+- metoda větví a mezí https://en.wikipedia.org/wiki/Branch_and_bound
+- Alfa-beta ořezávání https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning
+- ?? Prohledavani systemu verzi
 
 # Formulace úlohy statistického rozhodování, rozpoznávání. Bayesovské rozhodování jako minimalizace střední ztráty. Nebayesovské úlohy.
 
@@ -165,16 +187,38 @@ Werner T., Optimalizace, <https://cw.fel.cvut.cz/wiki/_media/courses/a4b33opt/op
 
 # Znalosti, jejich reprezentace a použití v úlohách umělé inteligence.
 
-	???
-	Vyrokova logika, ramce
-	Block world, SHRDLU
-	Planovaci operatory, STRIPS
+- literatura:
+    - Mařík V. et al., Umělá inteligence 1
+        - kap. Řešení úloh a využívání znalostí
+        - kap. Reprezentace znalostí
+        - kap. Plánování
+    - https://en.wikipedia.org/wiki/Knowledge_representation_and_reasoning
+
+- sémantika predikátové logiky
+- sémantické sítě https://en.wikipedia.org/wiki/Semantic_network
+- ontologie https://en.wikipedia.org/wiki/Ontology_(information_science)
+- rámce https://en.wikipedia.org/wiki/Frame_(artificial_intelligence)
+- semantic web https://en.wikipedia.org/wiki/Semantic_Web
+
+- ?? Vyrokova logika
+- ?? plánování
+    - Block world
+    - SHRDLU
+	- Planovaci operatory
+	- STRIPS
 
 # Znalostní systémy a jejich praktické aplikace.
 
-	??? (ontologie, data a inferencni pravidla?)
+- Mařík V. et al., Umělá inteligence 2
+- https://en.wikipedia.org/wiki/Expert_system
+
+- ?? ontologie, data a inferencni pravidla
 
 # Základní cíle umělé inteligence a přístupy k jejich dosažení: manipulace se symboly, konekcionismus, distribuované systémy.
+
+- https://en.wikipedia.org/wiki/Artificial_intelligence
+- Mařík V. et al., Umělá inteligence 3, kap. Přirozené a umělé myšlení jako filozofický problém
+- Mařík V. et al., Umělá inteligence 2, kap. Distribuované systémy
 
 ---
 
