@@ -224,23 +224,57 @@ Werner T., Optimalizace, <https://cw.fel.cvut.cz/wiki/_media/courses/a4b33opt/op
 
 # Teorie statistického učení podle Vapnika a Červoněnkise.
 
+- literatura:
+    - Hlaváč V. Vapnik-Chervonenkis learning theory. http://people.ciirc.cvut.cz/~hlavac/TeachPresEn/31PattRecog/27VapnikChervonenkis.pdf
+    - http://www.kyb.mpg.de/fileadmin/user_upload/files/publications/pdfs/pdf2819.pdf
+    - Vapnik V., An Overview of Statistical Learning Theory. http://www.mit.edu/~6.454/www_spring_2001/emin/slt.pdf
+- VC dimenze
+
 # Statistické učení bez učitele. EM algoritmus.
+
+- Matas J., Rozpoznávání. https://cw.fel.cvut.cz/wiki/courses/a4b33rpz/lectures
+- Flach B., Statistical Machine Learning. https://cw.fel.cvut.cz/wiki/courses/be4m33ssu/lectures
 
 # Lineární diskriminační funkce. Perceptron. SVM (Support Vector Machine). Mnohovrstvý perceptron a jeho učení metodou zpětného šíření.
 
+- Matas J., Rozpoznávání.
+- Flach B., Statistical Machine Learning.
+- hluboké sítě 
+    - https://cw.fel.cvut.cz/wiki/_media/courses/ae4m33mpv/deep_learning_mpv.pdf
+    - https://cw.fel.cvut.cz/wiki/_media/courses/be4m33ssu/anns_l07.pdf
+
 # Syntaktické rozpoznávání. Úlohy hledající přesnou a nepřesnou shodu. Rozpoznávání markovských řetězců.
+
+- Flach B., Graphical Markov Models. https://cw.fel.cvut.cz/wiki/courses/xep33gmm/materials/lectures
 
 # Obecné úlohy počítačového vidění. Měření tvaru, navigace, sledování, stíhání, rozpoznávání.
 
+- cíle
+- úlohy
+- Marrova teorie vidění
+- ...
+
 # Formování obrazu. Struktura obrazu. Vztah mezi vlastnostmi povrchu a jasovou funkcí.
+
+- Szeliski R., Computer Vision: Algorithms and Applications. http://szeliski.org/Book/
+- geometrie kamery
+- radiometrie, fotometrie
 
 # Projektivní a afinní geometrie.
 
+- Šára R., Matoušek M., 3D computer Vision, http://cmp.felk.cvut.cz/cmp/courses/TDV/2016W/lectures/tdv-2016-all-annotated.pdf
+
 # Geometrie více kamer.
+
+- Šára R., Matoušek M., 3D computer Vision.
 
 # Analýza pohybu. Problém korespondence.
 
+- Matas J., Metody počítačového vidění. https://cw.fel.cvut.cz/wiki/courses/ae4m33mpv/start
+
 # Tvar z X. Stereovidění. Fotometrické stereo. Tvar ze stínování.
+
+- Šára R., Matoušek M., 3D computer Vision.
     
 tématické okruhy: http://www.fel.cvut.cz/cz/education/phd/tem_okruhy/TO13133.html
 
