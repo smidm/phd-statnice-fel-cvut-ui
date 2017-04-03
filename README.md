@@ -24,7 +24,7 @@
 - https://en.wikipedia.org/wiki/Taylor%27s_theorem
 - https://en.wikipedia.org/wiki/Fourier_series
 - https://en.wikipedia.org/wiki/Interpolation
-- https://en.wikipedia.org/wiki/Spline_(mathematics)      
+- https://en.wikipedia.org/wiki/Spline_(mathematics)
 - Navara M., Aproximace funkcí a numerická derivace, <http://cmp.felk.cvut.cz/~navara/nm/aprox_print.pdf>
     
 ## Metoda nejmenších čtverců.
@@ -270,7 +270,28 @@ Werner T., Optimalizace, <https://cw.fel.cvut.cz/wiki/_media/courses/a4b33opt/op
 
 # Analýza pohybu. Problém korespondence.
 
-- Matas J., Metody počítačového vidění. https://cw.fel.cvut.cz/wiki/courses/ae4m33mpv/start
+- literatura:
+    - Matas J., Metody počítačového vidění. https://cw.fel.cvut.cz/wiki/courses/ae4m33mpv/start
+    - optický tok: Szeliski R., Computer Vision: Algorithms and Applications.
+- korelace
+- lokální příznaky
+    - Harris
+    - Harris - Laplace
+    - SIFT
+    - MSER
+- deskriptory
+    - SIFT
+    - SURF
+    - HOG
+    - LBP
+- RANSAC
+- sledování objektů
+    - KLT
+    - mean shift
+- filtrování
+    - Kalman
+    - particle filter
+
 
 # Tvar z X. Stereovidění. Fotometrické stereo. Tvar ze stínování.
 
