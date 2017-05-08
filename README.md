@@ -58,20 +58,29 @@ Werner T., Optimalizace, <https://cw.fel.cvut.cz/wiki/_media/courses/a4b33opt/op
 
 # 4. Základní pojmy statistiky, zásady provádění pokusů a ověřování hypotéz, metoda maximální věrohodnosti.
 
-- Navara, Mirko, Pravděpodobnost a matematická statistika.
+- literatura
+    - Navara, Mirko, Pravděpodobnost a matematická statistika.
+    - definice pravděpodobnosti http://www.colorado.edu/economics/morey/6818/3defprob.pdf
+    - Blitzstein Joe, Chen William. Probability Cheatsheet. http://www.wzchen.com/probability-cheatsheet
+    - Prince, Simon. Computer Vision - Models, Learning, Inference.
+
+- kombinatorika
 - Lagrangeova (klasická) definice https://en.wikipedia.org/wiki/Classical_definition_of_probability
 - Kolmogorova definice https://en.wikipedia.org/wiki/Probability_axioms
-- definice pravděpodobnosti http://www.colorado.edu/economics/morey/6818/3defprob.pdf
-- Blitzstein Joe, Chen William. Probability Cheatsheet. http://www.wzchen.com/probability-cheatsheet
-
-
-- Probability space
-- Bayes rule
-- Bernoulli, binomial distribution
-- Normal distribution, central limit theorem, quantiles
-- Poisson distribution, chi² distribution
-- Null hypothesis
-- ML, MAP
+- nezávislost a podmíněná pravděpodobnost
+    - bayesův vzorec
+- náhodné veličiny
+    - charakteristiky
+    - základní typy
+        - Bernoulli, binomial distribution
+        - Normal distribution, quantiles      
+    - zákon vekých čísel
+    - centrální limitní věta
+- metoda maximální věrohodnosti
+- metoda maximální aposteriorní pravděpodobnosti
+- testování hypotéz
+    - Null hypothesis
+    - chi² distribution
 
 # 5. Grafy. Kombinatorické algoritmy a jejich složitost. Asymptotické míry výpočetní složitosti, třídy P a NP.
 
@@ -166,24 +175,20 @@ Werner T., Optimalizace, <https://cw.fel.cvut.cz/wiki/_media/courses/a4b33opt/op
 	Godelovy vety
 
 # 10. Řešení úloh. Stavový prostor úlohy a metody jeho prohledávání.
-
-- literatura:
-    - Mařík V. et al., Umělá inteligence 1
-    - https://en.wikipedia.org/wiki/Combinatorial_search
-    
+   
 - stavový prostor
-- prohledávání do hloubky
-- prohledávání do šířky
+- prohledávání do hloubky https://en.wikipedia.org/wiki/Depth-first_search
+- prohledávání do šířky https://en.wikipedia.org/wiki/Breadth-first_search
 - A* https://en.wikipedia.org/wiki/A*_search_algorithm
 - metoda větví a mezí https://en.wikipedia.org/wiki/Branch_and_bound
 - Alfa-beta ořezávání https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning
-- ?? Prohledavani systemu verzi
 
 # 11. Formulace úlohy statistického rozhodování, rozpoznávání. Bayesovské rozhodování jako minimalizace střední ztráty. Nebayesovské úlohy.
 
-	Supervised, unsupervised, semi-supervised
-	Slajdy z Hlavace
-	Mixture of gaussians https://en.wikipedia.org/wiki/Jensen%27s_inequality
+- RPZ přednášky https://cw.fel.cvut.cz/wiki/courses/a4b33rpz/lectures
+- bayesovské rozhování
+- neyman pearson
+- minimax
 
 # 12. Definice problému učení. Indukce, dedukce a abdukce. Učení (trénování) a odhady parametrů. Odlišnosti učení s učitelem a bez učitele. Základní metody. Trénovací a testovací množina a jejich rozsah.
 
@@ -269,6 +274,8 @@ Werner T., Optimalizace, <https://cw.fel.cvut.cz/wiki/_media/courses/a4b33opt/op
 - geometrie kamery
 - digitální gamera
 - radiometrie, fotometrie
+    - zář, radiance https://en.wikipedia.org/wiki/Radiance
+    - 
 
 # 22. Projektivní a afinní geometrie.
 
@@ -322,6 +329,13 @@ Werner T., Optimalizace, <https://cw.fel.cvut.cz/wiki/_media/courses/a4b33opt/op
 # 25. Tvar z X. Stereovidění. Fotometrické stereo. Tvar ze stínování.
 
 - Šára R., Matoušek M., 3D computer Vision.
+- tvar ze stínování (jeden snímek, jeden zdroj světla)
+- fotometrické stereo (více zdrojů světla), Šára
+- stereovidění, Šára
+- structure from motion
+- brdf - obousměrná distribuční funkce odrazu světla
+- lambertovský povrch
+- na okraj: shape from texture, shape from focus, active rangefinding
     
 tématické okruhy: http://www.fel.cvut.cz/cz/education/phd/tem_okruhy/TO13133.html
 
