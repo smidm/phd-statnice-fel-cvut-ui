@@ -1,3 +1,7 @@
+After the actual exam I realized that the following subtopics go much deeper than necessary. Keep that in mind.
+
+Please fork the list and update it with your own notes.
+
 # 1. Množiny. Teorie matic. Soustavy lineárních rovnic.
 
 ## Teorie množin
